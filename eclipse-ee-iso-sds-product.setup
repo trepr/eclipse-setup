@@ -316,7 +316,7 @@
     <description>Jira TRE-PR</description>
   </setupTask>
   <version name="latest"
-      label="latest (2020-09)"
+      label="latest (2020-12)"
       requiredJavaVersion="11">
     <setupTask
         xsi:type="setup.p2:P2Task"
