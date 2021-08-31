@@ -57,6 +57,10 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.core.runtime/content-types/org.eclipse.jst.jsp.core.tagxsource/charset"
           value="ISO-8859-1"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.core.runtime/line.separator"
+          value="&#xA;"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
