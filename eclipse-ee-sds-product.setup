@@ -580,6 +580,9 @@
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.9.0,6.0.0)"/>
+      <requirement
+          name="org.jboss.tools.cdi.microprofile.feature.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
       <repository
           url="http://download.eclipse.org/technology/epp/packages/2021-03/202103121200"/>
       <repository
@@ -847,6 +850,9 @@
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.9.0,6.0.0)"/>
+      <requirement
+          name="org.jboss.tools.cdi.microprofile.feature.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
       <repository
           url="http://download.eclipse.org/technology/epp/packages/2021-03/202103121200"/>
       <repository
