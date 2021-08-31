@@ -112,7 +112,7 @@
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.ui/formatter_profile"
-          value="_SDSv2"/>
+          value="_SDSv3"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.jdt.ui/formatter_settings_version"
