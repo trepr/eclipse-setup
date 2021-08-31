@@ -526,67 +526,67 @@
           name="org.eclipse.wst.xsl.feature.feature.group"/>
       <requirement
           name="org.eclipse.team.svn.feature.group"
-          versionRange="[4.0.5.I20170425-1700,4.0.5.I20170425-1700]"/>
+          versionRange="[4.0.5.I20170425-1700,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.revision.graph.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.0.0.I20160226-1700]"/>
+          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.mylyn.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.0.0.I20160226-1700]"/>
+          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.m2e.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.0.0.I20160226-1700]"/>
+          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.feature.group"
-          versionRange="[6.0.4.I20161211-1700,6.0.4.I20161211-1700]"/>
+          versionRange="[6.0.4.I20161211-1700,6.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.svnkit18.feature.group"
-          versionRange="[6.0.4.I20161211-1700,6.0.4.I20161211-1700]"/>
+          versionRange="[6.0.4.I20161211-1700,6.1.0)"/>
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"
-          versionRange="[1.1.0.201406251020,1.1.0.201406251020]"/>
+          versionRange="[1.1.0.201406251020,1.2.0)"/>
       <requirement
           name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.5.v20150427,3.2.5.v20150427]"/>
+          versionRange="[3.2.5.v20150427,3.3.0)"/>
       <requirement
           name="org.jboss.tools.cdi.feature.feature.group"
-          versionRange="[1.9.0.v20190626-1406,1.9.0.v20190626-1406]"/>
+          versionRange="[1.9.0.v20190626-1406,1.10.0)"/>
       <requirement
           name="org.eclipse.linuxtools.docker.feature.feature.group"
-          versionRange="[5.0.0.202009091443,5.0.0.202009091443]"/>
+          versionRange="[5.0.0.202009091443,5.1.0)"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.10.v20200903-1131,5.4.10.v20200903-1131]"/>
+          versionRange="[5.4.10.v20200903-1131,5.5.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
-          versionRange="[3.6.306.v20200728-1350,3.6.306.v20200728-1350]"/>
+          versionRange="[3.6.306.v20200728-1350,3.7.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.as.feature.feature.group"
-          versionRange="[3.9.103.v20200930-2035,3.9.103.v20200930-2035]"/>
+          versionRange="[3.9.103.v20200930-2035,3.10.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxrs.feature.feature.group"
-          versionRange="[2.0.200.v20200818-1644,2.0.200.v20200818-1644]"/>
+          versionRange="[2.0.200.v20200818-1644,2.1.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxws.feature.feature.group"
-          versionRange="[2.0.200.v20200918-1349,2.0.200.v20200918-1349]"/>
+          versionRange="[2.0.200.v20200918-1349,2.1.0)"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"
-          versionRange="[1.9.100.v20200609-1353,1.9.100.v20200609-1353]"/>
+          versionRange="[1.9.100.v20200609-1353,1.10.0)"/>
       <requirement
           name="org.jboss.tools.maven.feature.feature.group"
-          versionRange="[1.9.200.v20200925-0612,1.9.200.v20200925-0612]"/>
+          versionRange="[1.9.200.v20200925-0612,1.10.0)"/>
       <requirement
           name="org.jboss.tools.foundation.feature.feature.group"
-          versionRange="[1.6.400.v20200917-1526,1.6.400.v20200917-1526]"/>
+          versionRange="[1.6.400.v20200917-1526,1.7.0)"/>
       <requirement
           name="org.jboss.tools.common.jdt.feature.feature.group"
-          versionRange="[3.15.0.v20200720-1526,3.15.0.v20200720-1526]"/>
+          versionRange="[3.15.0.v20200720-1526,3.16.0)"/>
       <requirement
           name="org.jboss.tools.jst.feature.feature.group"
-          versionRange="[3.9.300.v20200605-1455,3.9.300.v20200605-1455]"/>
+          versionRange="[3.9.300.v20200605-1455,3.10.0)"/>
       <requirement
           name="org.jboss.tools.jsf.feature.feature.group"
-          versionRange="[3.8.500.v20200930-0907,3.8.500.v20200930-0907]"/>
+          versionRange="[3.8.500.v20200930-0907,3.9.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.4.0.22606,6.0.0)"/>
@@ -791,67 +791,67 @@
           name="org.eclipse.wst.xsl.feature.feature.group"/>
       <requirement
           name="org.eclipse.team.svn.feature.group"
-          versionRange="[4.0.5.I20170425-1700,4.0.5.I20170425-1700]"/>
+          versionRange="[4.0.5.I20170425-1700,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.revision.graph.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.0.0.I20160226-1700]"/>
+          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.mylyn.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.0.0.I20160226-1700]"/>
+          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.m2e.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.0.0.I20160226-1700]"/>
+          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.feature.group"
-          versionRange="[6.0.4.I20161211-1700,6.0.4.I20161211-1700]"/>
+          versionRange="[6.0.4.I20161211-1700,6.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.svnkit18.feature.group"
-          versionRange="[6.0.4.I20161211-1700,6.0.4.I20161211-1700]"/>
+          versionRange="[6.0.4.I20161211-1700,6.1.0)"/>
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"
-          versionRange="[1.1.0.201406251020,1.1.0.201406251020]"/>
+          versionRange="[1.1.0.201406251020,1.2.0)"/>
       <requirement
           name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.5.v20150427,3.2.5.v20150427]"/>
+          versionRange="[3.2.5.v20150427,3.3.0)"/>
       <requirement
           name="org.jboss.tools.cdi.feature.feature.group"
-          versionRange="[1.9.0.v20190626-1406,1.9.0.v20190626-1406]"/>
+          versionRange="[1.9.0.v20190626-1406,1.10.0)"/>
       <requirement
           name="org.eclipse.linuxtools.docker.feature.feature.group"
-          versionRange="[5.0.0.202009091443,5.0.0.202009091443]"/>
+          versionRange="[5.0.0.202009091443,5.1.0)"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.10.v20200903-1131,5.4.10.v20200903-1131]"/>
+          versionRange="[5.4.10.v20200903-1131,5.5.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
-          versionRange="[3.6.306.v20200728-1350,3.6.306.v20200728-1350]"/>
+          versionRange="[3.6.306.v20200728-1350,3.7.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.as.feature.feature.group"
-          versionRange="[3.9.103.v20200930-2035,3.9.103.v20200930-2035]"/>
+          versionRange="[3.9.103.v20200930-2035,3.10.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxrs.feature.feature.group"
-          versionRange="[2.0.200.v20200818-1644,2.0.200.v20200818-1644]"/>
+          versionRange="[2.0.200.v20200818-1644,2.1.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxws.feature.feature.group"
-          versionRange="[2.0.200.v20200918-1349,2.0.200.v20200918-1349]"/>
+          versionRange="[2.0.200.v20200918-1349,2.1.0)"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"
-          versionRange="[1.9.100.v20200609-1353,1.9.100.v20200609-1353]"/>
+          versionRange="[1.9.100.v20200609-1353,1.10.0)"/>
       <requirement
           name="org.jboss.tools.maven.feature.feature.group"
-          versionRange="[1.9.200.v20200925-0612,1.9.200.v20200925-0612]"/>
+          versionRange="[1.9.200.v20200925-0612,1.10.0)"/>
       <requirement
           name="org.jboss.tools.foundation.feature.feature.group"
-          versionRange="[1.6.400.v20200917-1526,1.6.400.v20200917-1526]"/>
+          versionRange="[1.6.400.v20200917-1526,1.7.0)"/>
       <requirement
           name="org.jboss.tools.common.jdt.feature.feature.group"
-          versionRange="[3.15.0.v20200720-1526,3.15.0.v20200720-1526]"/>
+          versionRange="[3.15.0.v20200720-1526,3.16.0)"/>
       <requirement
           name="org.jboss.tools.jst.feature.feature.group"
-          versionRange="[3.9.300.v20200605-1455,3.9.300.v20200605-1455]"/>
+          versionRange="[3.9.300.v20200605-1455,3.10.0)"/>
       <requirement
           name="org.jboss.tools.jsf.feature.feature.group"
-          versionRange="[3.8.500.v20200930-0907,3.8.500.v20200930-0907]"/>
+          versionRange="[3.8.500.v20200930-0907,3.9.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.4.0.22606,6.0.0)"/>
