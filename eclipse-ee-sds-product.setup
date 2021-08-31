@@ -348,11 +348,277 @@
     <description>Jira TRE-PR</description>
   </setupTask>
   <version name="latest"
-      label="latest (2020-09)"
+      label="latest (2020-12)"
       requiredJavaVersion="11">
     <setupTask
         xsi:type="setup.p2:P2Task"
-        label="${scope.product.label} (${scope.product.version.label})">
+        label="Eclipse EE SDS for 2020-12">
+      <requirement
+          name="epp.package.jee"
+          versionRange="[4.18.0,5.0.0)"/>
+      <requirement
+          name="org.eclipse.platform.feature.group"
+          versionRange="[4.18.0,5.0.0)"/>
+      <requirement
+          name="org.eclipse.rcp.feature.group"
+          versionRange="[4.18.0,5.0.0)"/>
+      <requirement
+          name="org.eclipse.buildship.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.common.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.oda.designer.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.connectivity.oda.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.apache.derby.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.hsqldb.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.ibm.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.ingres.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.jdbc.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.jdt.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.msft.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.mysql.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.oda.designer.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.oda.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.oracle.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.postgresql.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.sap.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.sdk.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.sqlite.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.enablement.sybase.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.intro.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.modelbase.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sdk.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.data.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.ddl.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.parsers.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.results.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.datatools.sqltools.doc.user.feature.group"/>
+      <requirement
+          name="org.eclipse.eclemma.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.egit.feature.group"/>
+      <requirement
+          name="org.eclipse.egit.mylyn.feature.group"/>
+      <requirement
+          name="org.eclipse.epp.mpc.feature.group"/>
+      <requirement
+          name="org.eclipse.jdt.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.common.eclipselink.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.common.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.jaxb.eclipselink.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.jaxb.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.jpa.eclipselink.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jpt.jpa.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jsf.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.common.fproj.enablement.jdt.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.enterprise_ui.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.server_adapters.ext.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.server_adapters.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.server_ui.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.web_ui.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.webpageeditor.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.ws.axis2tools.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.ws.cxf.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.ws.jaxws.dom.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.jst.ws.jaxws.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.m2e.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.m2e.logback.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.jaxrs.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.jpa.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.m2e.wtp.jsf.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.bugzilla_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.context_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.ide_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.java_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.pde.feature.group"/>
+      <requirement
+          name="org.eclipse.tips.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.tm.terminal.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wildwebdeveloper.embedder.node.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wildwebdeveloper.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wst.common.fproj.feature.group"/>
+      <requirement
+          name="org.eclipse.wst.server_adapters.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.wst.xsl.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.team.svn.feature.group"
+          versionRange="[4.0.0,4.1.0)"/>
+      <requirement
+          name="org.eclipse.team.svn.revision.graph.feature.group"
+          versionRange="[4.0.0,4.1.0)"/>
+      <requirement
+          name="org.eclipse.team.svn.mylyn.feature.group"
+          versionRange="[4.0.0,4.1.0)"/>
+      <requirement
+          name="org.eclipse.team.svn.m2e.feature.group"
+          versionRange="[4.0.0,4.1.0)"/>
+      <requirement
+          name="org.polarion.eclipse.team.svn.connector.feature.group"
+          versionRange="[6.0.0,6.1.0)"/>
+      <requirement
+          name="org.polarion.eclipse.team.svn.connector.svnkit18.feature.group"
+          versionRange="[6.0.0,6.1.0)"/>
+      <requirement
+          name="org.jboss.tools.m2e.wro4j.feature.feature.group"
+          versionRange="[1.1.0,1.2.0)"/>
+      <requirement
+          name="com.atlassian.connector.eclipse.feature.group"
+          versionRange="[3.2.0,3.3.0)"/>
+      <requirement
+          name="org.jboss.tools.cdi.feature.feature.group"
+          versionRange="[1.10.0,1.11.0)"/>
+      <requirement
+          name="org.eclipse.linuxtools.docker.feature.feature.group"
+          versionRange="[5.0.0,5.1.0)"/>
+      <requirement
+          name="org.hibernate.eclipse.feature.feature.group"
+          versionRange="[5.4.0,5.5.0)"/>
+      <requirement
+          name="org.jboss.ide.eclipse.archives.feature.feature.group"
+          versionRange="[3.6.0,3.7.0)"/>
+      <requirement
+          name="org.jboss.ide.eclipse.as.feature.feature.group"
+          versionRange="[3.9.0,3.10.0)"/>
+      <requirement
+          name="org.jboss.tools.ws.jaxrs.feature.feature.group"
+          versionRange="[2.0.0,2.1.0)"/>
+      <requirement
+          name="org.jboss.tools.ws.jaxws.feature.feature.group"
+          versionRange="[2.0.0,2.1.0)"/>
+      <requirement
+          name="org.jboss.tools.maven.cdi.feature.feature.group"
+          versionRange="[1.9.0,1.10.0)"/>
+      <requirement
+          name="org.jboss.tools.maven.feature.feature.group"
+          versionRange="[1.9.0,1.10.0)"/>
+      <requirement
+          name="org.jboss.tools.foundation.feature.feature.group"
+          versionRange="[1.6.0,1.7.0)"/>
+      <requirement
+          name="org.jboss.tools.common.jdt.feature.feature.group"
+          versionRange="[3.0.0,3.16.0)"/>
+      <requirement
+          name="org.jboss.tools.jst.feature.feature.group"
+          versionRange="[3.9.0,3.10.0)"/>
+      <requirement
+          name="org.jboss.tools.jsf.feature.feature.group"
+          versionRange="[3.8.0,3.9.0)"/>
+      <requirement
+          name="org.sonarlint.eclipse.feature.feature.group"
+          versionRange="[5.4.0,6.0.0)"/>
+      <repository
+          url="http://download.eclipse.org/releases/2020-12/202012161000">
+        <annotation
+            source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
+      </repository>
+      <repository
+          url="http://download.eclipse.org/technology/epp/packages/2020-12/202012101200"/>
+      <repository
+          url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
+      <repository
+          url="http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/updates/m2e-extensions/m2e-wro4j/1.1.0-2014-06-25_06-16-31-H26/"/>
+      <repository
+          url="http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/photon/stable/updates"/>
+      <repository
+          url="https://eclipse-uc.sonarlint.org"/>
+      <description></description>
+    </setupTask>
+    <description>Current Eclipse EE SDS</description>
+  </version>
+  <version name="2020-09"
+      label="2020-09"
+      requiredJavaVersion="11">
+    <setupTask
+        xsi:type="setup.p2:P2Task"
+        label="Eclipse EE SDS for 2020-09">
       <requirement
           name="epp.package.jee"
           versionRange="[4.17.0,5.0.0)"/>
@@ -610,23 +876,23 @@
       <repository
           url="https://eclipse-uc.sonarlint.org"/>
     </setupTask>
-    <description>Current Eclipse EE SDS.</description>
+    <description>Eclipse EE SDS for 2020-09.</description>
   </version>
-  <version name="2020-09"
-      label="2020-09"
+  <version name="2020-12"
+      label="2020-12"
       requiredJavaVersion="11">
     <setupTask
         xsi:type="setup.p2:P2Task"
-        label="${scope.product.label} (${scope.product.version.label})">
+        label="Eclipse EE SDS for 2020-12">
       <requirement
           name="epp.package.jee"
-          versionRange="[4.17.0,5.0.0)"/>
+          versionRange="[4.18.0,5.0.0)"/>
       <requirement
           name="org.eclipse.platform.feature.group"
-          versionRange="[4.17.0,5.0.0)"/>
+          versionRange="[4.18.0,5.0.0)"/>
       <requirement
           name="org.eclipse.rcp.feature.group"
-          versionRange="[4.17.0,5.0.0)"/>
+          versionRange="[4.18.0,5.0.0)"/>
       <requirement
           name="org.eclipse.buildship.feature.group"/>
       <requirement
@@ -791,77 +1057,77 @@
           name="org.eclipse.wst.xsl.feature.feature.group"/>
       <requirement
           name="org.eclipse.team.svn.feature.group"
-          versionRange="[4.0.5.I20170425-1700,4.1.0)"/>
+          versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.revision.graph.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
+          versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.mylyn.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
+          versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.m2e.feature.group"
-          versionRange="[4.0.0.I20160226-1700,4.1.0)"/>
+          versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.feature.group"
-          versionRange="[6.0.4.I20161211-1700,6.1.0)"/>
+          versionRange="[6.0.0,6.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.svnkit18.feature.group"
-          versionRange="[6.0.4.I20161211-1700,6.1.0)"/>
+          versionRange="[6.0.0,6.1.0)"/>
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"
-          versionRange="[1.1.0.201406251020,1.2.0)"/>
+          versionRange="[1.1.0,1.2.0)"/>
       <requirement
           name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.5.v20150427,3.3.0)"/>
+          versionRange="[3.2.0,3.3.0)"/>
       <requirement
           name="org.jboss.tools.cdi.feature.feature.group"
-          versionRange="[1.9.0.v20190626-1406,1.10.0)"/>
+          versionRange="[1.10.0,1.11.0)"/>
       <requirement
           name="org.eclipse.linuxtools.docker.feature.feature.group"
-          versionRange="[5.0.0.202009091443,5.1.0)"/>
+          versionRange="[5.0.0,5.1.0)"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.10.v20200903-1131,5.5.0)"/>
+          versionRange="[5.4.0,5.5.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
-          versionRange="[3.6.306.v20200728-1350,3.7.0)"/>
+          versionRange="[3.6.0,3.7.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.as.feature.feature.group"
-          versionRange="[3.9.103.v20200930-2035,3.10.0)"/>
+          versionRange="[3.9.0,3.10.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxrs.feature.feature.group"
-          versionRange="[2.0.200.v20200818-1644,2.1.0)"/>
+          versionRange="[2.0.0,2.1.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxws.feature.feature.group"
-          versionRange="[2.0.200.v20200918-1349,2.1.0)"/>
+          versionRange="[2.0.0,2.1.0)"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"
-          versionRange="[1.9.100.v20200609-1353,1.10.0)"/>
+          versionRange="[1.9.0,1.10.0)"/>
       <requirement
           name="org.jboss.tools.maven.feature.feature.group"
-          versionRange="[1.9.200.v20200925-0612,1.10.0)"/>
+          versionRange="[1.9.0,1.10.0)"/>
       <requirement
           name="org.jboss.tools.foundation.feature.feature.group"
-          versionRange="[1.6.400.v20200917-1526,1.7.0)"/>
+          versionRange="[1.6.0,1.7.0)"/>
       <requirement
           name="org.jboss.tools.common.jdt.feature.feature.group"
-          versionRange="[3.15.0.v20200720-1526,3.16.0)"/>
+          versionRange="[3.0.0,3.16.0)"/>
       <requirement
           name="org.jboss.tools.jst.feature.feature.group"
-          versionRange="[3.9.300.v20200605-1455,3.10.0)"/>
+          versionRange="[3.9.0,3.10.0)"/>
       <requirement
           name="org.jboss.tools.jsf.feature.feature.group"
-          versionRange="[3.8.500.v20200930-0907,3.9.0)"/>
+          versionRange="[3.8.0,3.9.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
-          versionRange="[5.4.0.22606,6.0.0)"/>
+          versionRange="[5.4.0,6.0.0)"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/2020-09/202009101200"/>
-      <repository
-          url="http://download.eclipse.org/releases/2020-09/202009161000">
+          url="http://download.eclipse.org/releases/2020-12/202012161000">
         <annotation
             source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
       </repository>
+      <repository
+          url="http://download.eclipse.org/technology/epp/packages/2020-12/202012101200"/>
       <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
@@ -874,8 +1140,9 @@
           url="https://download.jboss.org/jbosstools/photon/stable/updates"/>
       <repository
           url="https://eclipse-uc.sonarlint.org"/>
+      <description></description>
     </setupTask>
-    <description>Eclipse EE SDS for 2020-09.</description>
+    <description>Eclipse EE SDS for 2020-12.</description>
   </version>
   <description>
     Tools for developers working with Java and Web applications, including a Java IDE, tools for Web Services, JPA and Data Tools, JavaServer Pages and Faces, Mylyn, Maven and Gradle, Git, and more.&lt;br/>
