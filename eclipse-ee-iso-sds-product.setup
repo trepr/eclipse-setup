@@ -525,7 +525,7 @@
           versionRange="[1.10.0,1.11.0)"/>
       <requirement
           name="org.eclipse.linuxtools.docker.feature.feature.group"
-          versionRange="[5.0.0,5.1.0)"/>
+          versionRange="[5.2.0,5.3.0)"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
           versionRange="[5.4.0,5.5.0)"/>
@@ -537,10 +537,10 @@
           versionRange="[3.9.0,3.10.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxrs.feature.feature.group"
-          versionRange="[2.0.0,2.1.0)"/>
+          versionRange="[2.1.0,2.2.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxws.feature.feature.group"
-          versionRange="[2.0.0,2.1.0)"/>
+          versionRange="[2.1.0,2.2.0)"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"
           versionRange="[1.9.0,1.10.0)"/>
@@ -552,13 +552,13 @@
           versionRange="[1.6.0,1.7.0)"/>
       <requirement
           name="org.jboss.tools.common.jdt.feature.feature.group"
-          versionRange="[3.0.0,3.16.0)"/>
+          versionRange="[3.16.0,3.17.0)"/>
       <requirement
           name="org.jboss.tools.jst.feature.feature.group"
-          versionRange="[3.9.0,3.10.0)"/>
+          versionRange="[3.10.0,3.11.0)"/>
       <requirement
           name="org.jboss.tools.jsf.feature.feature.group"
-          versionRange="[3.8.0,3.9.0)"/>
+          versionRange="[3.9.0,3.10.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.4.0,6.0.0)"/>
