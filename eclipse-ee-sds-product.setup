@@ -4,10 +4,9 @@
     xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:jdt="http://www.eclipse.org/oomph/setup/jdt/1.0"
-    xmlns:mylyn="http://www.eclipse.org/oomph/setup/mylyn/1.0"
     xmlns:setup="http://www.eclipse.org/oomph/setup/1.0"
     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
-    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/jdt/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/JDT.ecore http://www.eclipse.org/oomph/setup/mylyn/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/Mylyn.ecore"
+    xsi:schemaLocation="http://www.eclipse.org/oomph/setup/jdt/1.0 http://git.eclipse.org/c/oomph/org.eclipse.oomph.git/plain/setups/models/JDT.ecore"
     name="eclipse.ee.sds"
     label="Eclipse EE SDS">
   <annotation
@@ -244,28 +243,6 @@
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
-        name="org.eclipse.team.svn.core">
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.team.svn.core/repositories/20bbadf94cd20018193ff2813bb02c7d"
-          value="20bbadf94cd20018193ff2813bb02c7d;https://svn.tre-pr.jus.br/sdsj8;https://svn.tre-pr.jus.br/sdsj8;branches;tags;trunk;true;67258093-852d-4a1f-b831-e5e5ffeea230;https://svn.tre-pr.jus.br/sdsj8;;false;;;0">
-        <description>Repositório svn/sdsj8</description>
-      </setupTask>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.team.svn.core/repositories/4076db5fa63600191204e72ca3376864"
-          value="4076db5fa63600191204e72ca3376864;https://svn.tre-pr.jus.br/sds;https://svn.tre-pr.jus.br/sds;branches;tags;trunk;true;a8dd11d3-fc18-4a63-b8e0-f5c2239720f0;https://svn.tre-pr.jus.br/sds;;false;;;0">
-        <description>Repositório svn/sds</description>
-      </setupTask>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.team.svn.core/repositories/6098c30c4dd20018193ff2813bb02c7d"
-          value="6098c30c4dd20018193ff2813bb02c7d;https://svn.tre-pr.jus.br/estudos;https://svn.tre-pr.jus.br/estudos;branches;tags;trunk;true;6c0eec3c-fded-4242-b5c7-3f392087cb59;https://svn.tre-pr.jus.br/estudos;;false;;;0">
-        <description>Repositório svn/estudos</description>
-      </setupTask>
-    </setupTask>
-    <setupTask
-        xsi:type="setup:CompoundTask"
         name="org.eclipse.ui.editors">
       <setupTask
           xsi:type="setup:PreferenceTask"
@@ -330,6 +307,11 @@
       name="scope.project.label"
       value="Projetos Java EE"/>
   <setupTask
+      xsi:type="setup:VariableTask"
+      id="workspace.location"
+      name="workspace.location"
+      value="${installation.location/workspace}"/>
+  <setupTask
       xsi:type="setup:EclipseIniTask"
       option="-Xmx"
       value="2048m"
@@ -344,28 +326,30 @@
     <description>Set the charset needed to work with the projects of ${scope.project.label}</description>
   </setupTask>
   <setupTask
-      xsi:type="mylyn:MylynQueriesTask"
-      connectorKind="jira"
-      repositoryURL="https://jira.tre-pr.jus.br"
-      userID=""
-      password="">
-    <description>Jira TRE-PR</description>
+      xsi:type="setup:InstallationTask"
+      id="installation"/>
+  <setupTask
+      xsi:type="setup.p2:P2Task">
+    <requirement
+        name="org.eclipse.oomph.setup.feature.group"/>
+    <repository
+        url="${oomph.update.url}"/>
   </setupTask>
   <version name="latest"
-      label="latest (2020-12)"
+      label="latest (2021-03)"
       requiredJavaVersion="11">
     <setupTask
         xsi:type="setup.p2:P2Task"
-        label="Eclipse EE SDS for 2020-12">
+        label="Eclipse IDE for Enterprise Java and Web Developers (2021-03)">
       <requirement
           name="epp.package.jee"
-          versionRange="[4.18.0,5.0.0)"/>
+          versionRange="[4.19.0,5.0.0)"/>
       <requirement
           name="org.eclipse.platform.feature.group"
-          versionRange="[4.18.0,5.0.0)"/>
+          versionRange="[4.19.0,5.0.0)"/>
       <requirement
           name="org.eclipse.rcp.feature.group"
-          versionRange="[4.18.0,5.0.0)"/>
+          versionRange="[4.19.0,5.0.0)"/>
       <requirement
           name="org.eclipse.buildship.feature.group"/>
       <requirement
@@ -493,6 +477,8 @@
       <requirement
           name="org.eclipse.m2e.logback.feature.feature.group"/>
       <requirement
+          name="org.eclipse.m2e.pde.feature.feature.group"/>
+      <requirement
           name="org.eclipse.m2e.wtp.feature.feature.group"/>
       <requirement
           name="org.eclipse.m2e.wtp.jaxrs.feature.feature.group"/>
@@ -593,14 +579,14 @@
           versionRange="[3.9.0,3.10.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
-          versionRange="[5.4.0,6.0.0)"/>
+          versionRange="[5.9.0,6.0.0)"/>
       <repository
-          url="http://download.eclipse.org/releases/2020-12/202012161000">
+          url="http://download.eclipse.org/technology/epp/packages/2021-03/202103121200"/>
+      <repository
+          url="http://download.eclipse.org/releases/2021-03/202103171000">
         <annotation
             source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
       </repository>
-      <repository
-          url="http://download.eclipse.org/technology/epp/packages/2020-12/202012101200"/>
       <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
@@ -613,9 +599,8 @@
           url="https://download.jboss.org/jbosstools/photon/stable/updates"/>
       <repository
           url="https://eclipse-uc.sonarlint.org"/>
-      <description></description>
     </setupTask>
-    <description>Eclipse EE SDS for 2020-12.</description>
+    <description>Eclipse EE SDS for 2021-03.</description>
   </version>
   <version name="2021-03"
       label="2021-03"
