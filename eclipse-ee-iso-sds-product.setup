@@ -524,7 +524,7 @@
           versionRange="[5.0.0.202009091443,5.0.0.202009091443]"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.10.v20200903-1131,5.4.10.v20200903-1131]"/>
+          versionRange="[5.4.10.v20200903-1131,5.5.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
           versionRange="[3.6.306.v20200728-1350,3.6.306.v20200728-1350]"/>
@@ -789,7 +789,7 @@
           versionRange="[5.0.0.202009091443,5.0.0.202009091443]"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.10.v20200903-1131,5.4.10.v20200903-1131]"/>
+          versionRange="[5.4.10.v20200903-1131,5.5.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
           versionRange="[3.6.306.v20200728-1350,3.6.306.v20200728-1350]"/>
