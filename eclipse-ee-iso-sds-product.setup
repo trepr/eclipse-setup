@@ -496,58 +496,58 @@
           versionRange="[6.0.0,6.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.svnkit18.feature.group"
-          versionRange="[6.0.0,6.1.0)"/>
+          versionRange="[6.0.0,7.0.0)"/>
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"
-          versionRange="[1.1.0,1.2.0)"/>
+          versionRange="[1.1.0,2.0.0)"/>
       <requirement
           name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.0,3.3.0)"/>
+          versionRange="[3.2.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.cdi.feature.feature.group"
-          versionRange="[1.10.0,1.11.0)"/>
+          versionRange="[1.10.0,2.0.0)"/>
       <requirement
           name="org.eclipse.linuxtools.docker.feature.feature.group"
-          versionRange="[5.2.0,5.3.0)"/>
+          versionRange="[5.2.0,6.0.0)"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.0,5.5.0)"/>
+          versionRange="[5.4.0,6.0.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
-          versionRange="[3.6.0,3.7.0)"/>
+          versionRange="[3.6.0,4.0.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.as.feature.feature.group"
-          versionRange="[3.9.0,3.10.0)"/>
+          versionRange="[3.9.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxrs.feature.feature.group"
-          versionRange="[2.2.0,2.3.0)"/>
+          versionRange="[2.2.0,3.0.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxws.feature.feature.group"
-          versionRange="[2.2.0,2.3.0)"/>
+          versionRange="[2.2.0,3.0.0)"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"
-          versionRange="[1.9.0,1.10.0)"/>
+          versionRange="[1.9.0,2.0.0)"/>
       <requirement
           name="org.jboss.tools.maven.feature.feature.group"
-          versionRange="[1.9.0,1.10.0)"/>
+          versionRange="[1.9.0,2.0.0)"/>
       <requirement
           name="org.jboss.tools.foundation.feature.feature.group"
-          versionRange="[1.6.0,1.7.0)"/>
+          versionRange="[1.6.0,2.0.0)"/>
       <requirement
           name="org.jboss.tools.common.jdt.feature.feature.group"
-          versionRange="[3.16.0,3.17.0)"/>
+          versionRange="[3.16.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.jst.feature.feature.group"
-          versionRange="[3.10.0,3.11.0)"/>
+          versionRange="[3.10.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.jsf.feature.feature.group"
-          versionRange="[3.9.0,3.10.0)"/>
+          versionRange="[3.9.0,4.0.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.9.0,6.0.0)"/>
       <requirement
           name="org.jboss.tools.cdi.microprofile.feature.feature.group"
-          versionRange="[1.10.0,1.11.0)"/>
+          versionRange="[1.10.0,2.0.0)"/>
       <repository
           url="http://download.eclipse.org/technology/epp/packages/2021-06/202106121200"/>
       <repository
@@ -767,58 +767,58 @@
           versionRange="[6.0.0,6.1.0)"/>
       <requirement
           name="org.polarion.eclipse.team.svn.connector.svnkit18.feature.group"
-          versionRange="[6.0.0,6.1.0)"/>
+          versionRange="[6.0.0,7.0.0)"/>
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"
-          versionRange="[1.1.0,1.2.0)"/>
+          versionRange="[1.1.0,2.0.0)"/>
       <requirement
           name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.0,3.3.0)"/>
+          versionRange="[3.2.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.cdi.feature.feature.group"
-          versionRange="[1.10.0,1.11.0)"/>
+          versionRange="[1.10.0,2.0.0)"/>
       <requirement
           name="org.eclipse.linuxtools.docker.feature.feature.group"
-          versionRange="[5.2.0,5.3.0)"/>
+          versionRange="[5.2.0,6.0.0)"/>
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"
-          versionRange="[5.4.0,5.5.0)"/>
+          versionRange="[5.4.0,6.0.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.archives.feature.feature.group"
-          versionRange="[3.6.0,3.7.0)"/>
+          versionRange="[3.6.0,4.0.0)"/>
       <requirement
           name="org.jboss.ide.eclipse.as.feature.feature.group"
-          versionRange="[3.9.0,3.10.0)"/>
+          versionRange="[3.9.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxrs.feature.feature.group"
-          versionRange="[2.2.0,2.3.0)"/>
+          versionRange="[2.2.0,3.0.0)"/>
       <requirement
           name="org.jboss.tools.ws.jaxws.feature.feature.group"
-          versionRange="[2.2.0,2.3.0)"/>
+          versionRange="[2.2.0,3.0.0)"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"
-          versionRange="[1.9.0,1.10.0)"/>
+          versionRange="[1.9.0,2.0.0)"/>
       <requirement
           name="org.jboss.tools.maven.feature.feature.group"
-          versionRange="[1.9.0,1.10.0)"/>
+          versionRange="[1.9.0,2.0.0)"/>
       <requirement
           name="org.jboss.tools.foundation.feature.feature.group"
-          versionRange="[1.6.0,1.7.0)"/>
+          versionRange="[1.6.0,2.0.0)"/>
       <requirement
           name="org.jboss.tools.common.jdt.feature.feature.group"
-          versionRange="[3.16.0,3.17.0)"/>
+          versionRange="[3.16.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.jst.feature.feature.group"
-          versionRange="[3.10.0,3.11.0)"/>
+          versionRange="[3.10.0,4.0.0)"/>
       <requirement
           name="org.jboss.tools.jsf.feature.feature.group"
-          versionRange="[3.9.0,3.10.0)"/>
+          versionRange="[3.9.0,4.0.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
           versionRange="[5.9.0,6.0.0)"/>
       <requirement
           name="org.jboss.tools.cdi.microprofile.feature.feature.group"
-          versionRange="[1.10.0,1.11.0)"/>
+          versionRange="[1.10.0,2.0.0)"/>
       <repository
           url="http://download.eclipse.org/technology/epp/packages/2021-06/202106121200"/>
       <repository
