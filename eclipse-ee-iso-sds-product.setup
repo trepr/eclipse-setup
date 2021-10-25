@@ -35,6 +35,14 @@
         source="http://www.eclipse.org/oomph/setup/UserPreferences"/>
     <setupTask
         xsi:type="setup:CompoundTask"
+        name="com.atlassian.connector.eclipse.directclickthrough.ui">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/com.atlassian.connector.eclipse.directclickthrough.ui/com.atlassian.connector.eclipse.directclickthrough.ui.enabled"
+          value="false"/>
+    </setupTask>
+    <setupTask
+        xsi:type="setup:CompoundTask"
         name="org.eclipse.core.runtime">
       <setupTask
           xsi:type="setup:PreferenceTask"
@@ -232,6 +240,10 @@
     <setupTask
         xsi:type="setup:CompoundTask"
         name="org.eclipse.ui.editors">
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.ui.editors/printMarginColumn"
+          value="180"/>
       <setupTask
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.ui.editors/spellingEnabled"
