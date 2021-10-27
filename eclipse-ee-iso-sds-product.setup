@@ -272,6 +272,10 @@
           xsi:type="setup:PreferenceTask"
           key="/instance/org.eclipse.wst.xml.core/lineWidth"
           value="180"/>
+      <setupTask
+          xsi:type="setup:PreferenceTask"
+          key="/instance/org.eclipse.wst.xml.core/formatCommentJoinLines"
+          value="false"/>
     </setupTask>
   </setupTask>
   <setupTask
