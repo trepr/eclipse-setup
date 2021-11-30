@@ -1,11 +1,18 @@
 public class FormattingTester {
 
+	// Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 	public void test() {}
 
+	/*
+	 * Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+	 */
 	public void test() {
 		Builder request = target.request().accept(MediaType.APPLICATION_JSON).header(HttpHeaders.AUTHORIZATION, "Bearer " + token);
 	}
 
+	/**
+	 * Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+	 */
 	public void test() {
 		return String.format("Service Account rest test (%s): (%s-%s) %s", restPath, httpStatus, responseStatus.toString(), entity);
 	}
