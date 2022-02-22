@@ -554,7 +554,7 @@
           versionRange="[3.9.0,4.0.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
-          versionRange="[5.9.0,6.0.0)"/>
+          versionRange="[7.0.0,8.0.0)"/>
       <requirement
           name="org.jboss.tools.cdi.microprofile.feature.feature.group"
           versionRange="[1.10.0,2.0.0)"/>
@@ -826,7 +826,7 @@
           versionRange="[3.9.0,4.0.0)"/>
       <requirement
           name="org.sonarlint.eclipse.feature.feature.group"
-          versionRange="[5.9.0,6.0.0)"/>
+          versionRange="[7.0.0,8.0.0)"/>
       <requirement
           name="org.jboss.tools.cdi.microprofile.feature.feature.group"
           versionRange="[1.10.0,2.0.0)"/>
