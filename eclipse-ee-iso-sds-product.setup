@@ -572,6 +572,8 @@
             source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
       </repository>
       <repository
+          url="http://download.eclipse.org/mylyn/releases/latest"/>
+      <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
           url="http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/"/>
@@ -845,6 +847,8 @@
         <annotation
             source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
       </repository>
+      <repository
+          url="http://download.eclipse.org/mylyn/releases/latest"/>
       <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
