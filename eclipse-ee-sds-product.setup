@@ -434,8 +434,6 @@
       <requirement
           name="org.eclipse.egit.feature.group"/>
       <requirement
-          name="org.eclipse.egit.mylyn.feature.group"/>
-      <requirement
           name="org.eclipse.epp.mpc.feature.group"/>
       <requirement
           name="org.eclipse.jdt.feature.group"/>
@@ -709,8 +707,6 @@
           name="org.eclipse.eclemma.feature.feature.group"/>
       <requirement
           name="org.eclipse.egit.feature.group"/>
-      <requirement
-          name="org.eclipse.egit.mylyn.feature.group"/>
       <requirement
           name="org.eclipse.epp.mpc.feature.group"/>
       <requirement
