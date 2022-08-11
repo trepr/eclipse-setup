@@ -494,20 +494,6 @@
       <requirement
           name="org.eclipse.m2e.wtp.jsf.feature.feature.group"/>
       <requirement
-          name="org.eclipse.mylyn.bugzilla_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.context_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.ide_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.java_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.team_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn_feature.feature.group"/>
-      <requirement
           name="org.eclipse.pde.feature.group"/>
       <requirement
           name="org.eclipse.tips.feature.feature.group"/>
@@ -593,8 +579,6 @@
         <annotation
             source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
       </repository>
-      <repository
-          url="http://download.eclipse.org/mylyn/releases/latest"/>
       <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
@@ -762,20 +746,6 @@
       <requirement
           name="org.eclipse.m2e.wtp.jsf.feature.feature.group"/>
       <requirement
-          name="org.eclipse.mylyn.bugzilla_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.context_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.ide_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.java_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.team_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
-      <requirement
-          name="org.eclipse.mylyn_feature.feature.group"/>
-      <requirement
           name="org.eclipse.pde.feature.group"/>
       <requirement
           name="org.eclipse.tips.feature.feature.group"/>
@@ -861,8 +831,6 @@
         <annotation
             source="http://www.eclipse.org/oomph/setup/ReleaseTrain"/>
       </repository>
-      <repository
-          url="http://download.eclipse.org/mylyn/releases/latest"/>
       <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
