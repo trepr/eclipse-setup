@@ -502,6 +502,8 @@
       <requirement
           name="org.eclipse.mylyn.java_feature.feature.group"/>
       <requirement
+          name="org.eclipse.mylyn.team_feature.feature.group"/>
+      <requirement
           name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
       <requirement
           name="org.eclipse.mylyn_feature.feature.group"/>
@@ -775,6 +777,8 @@
           name="org.eclipse.mylyn.ide_feature.feature.group"/>
       <requirement
           name="org.eclipse.mylyn.java_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.team_feature.feature.group"/>
       <requirement
           name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
       <requirement
