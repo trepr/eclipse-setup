@@ -496,16 +496,10 @@
       <requirement
           name="org.eclipse.wst.xsl.feature.feature.group"/>
       <requirement
-          name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.0,4.0.0)"/>
-      <requirement
           name="org.eclipse.team.svn.feature.group"
           versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.revision.graph.feature.group"
-          versionRange="[4.0.0,4.1.0)"/>
-      <requirement
-          name="org.eclipse.team.svn.mylyn.feature.group"
           versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.m2e.feature.group"
@@ -583,8 +577,6 @@
           url="https://download.jboss.org/jbosstools/updates/m2e-wro4j/"/>
       <repository
           url="https://eclipse-uc.sonarlint.org"/>
-      <repository
-          url="http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/"/>
     </setupTask>
   </version>
   <version name="2022-06"
@@ -772,16 +764,10 @@
       <requirement
           name="org.eclipse.wst.xsl.feature.feature.group"/>
       <requirement
-          name="com.atlassian.connector.eclipse.feature.group"
-          versionRange="[3.2.0,4.0.0)"/>
-      <requirement
           name="org.eclipse.team.svn.feature.group"
           versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.revision.graph.feature.group"
-          versionRange="[4.0.0,4.1.0)"/>
-      <requirement
-          name="org.eclipse.team.svn.mylyn.feature.group"
           versionRange="[4.0.0,4.1.0)"/>
       <requirement
           name="org.eclipse.team.svn.m2e.feature.group"
@@ -859,8 +845,6 @@
           url="https://download.jboss.org/jbosstools/updates/m2e-wro4j/"/>
       <repository
           url="https://eclipse-uc.sonarlint.org"/>
-      <repository
-          url="http://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/"/>
     </setupTask>
   </version>
   <version name="2022-03"
