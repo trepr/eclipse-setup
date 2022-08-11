@@ -3,6 +3,16 @@ public class FormattingTester {
 	// Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 	public void test() {}
 
+	/**
+	 * teste
+	 * <pre>
+	 * {
+	 *   json=json;
+	 * }
+	 * </pre>
+	 */
+	public void test() {}
+	
 	/*
 	 * Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
 	 */
