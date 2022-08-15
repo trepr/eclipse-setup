@@ -501,6 +501,8 @@
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"/>
       <requirement
+          name="org.jboss.tools.maven.apt.feature.feature.group"/>
+      <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"/>
       <requirement
           name="org.jboss.tools.maven.feature.feature.group"/>
@@ -781,6 +783,8 @@
           name="org.jboss.tools.foundation.feature.feature.group"/>
       <requirement
           name="org.jboss.tools.m2e.wro4j.feature.feature.group"/>
+      <requirement
+          name="org.jboss.tools.maven.apt.feature.feature.group"/>
       <requirement
           name="org.jboss.tools.maven.cdi.feature.feature.group"/>
       <requirement
