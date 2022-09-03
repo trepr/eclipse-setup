@@ -562,6 +562,8 @@
           name="org.eclipse.mylyn.tasks.ide.feature.group"/>
       <requirement
           name="org.eclipse.mylyn.team_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
       <repository
           url="https://gnl42.github.io/JiraConnector-update/"/>
       <repository
@@ -845,6 +847,8 @@
           name="org.eclipse.mylyn.tasks.ide.feature.group"/>
       <requirement
           name="org.eclipse.mylyn.team_feature.feature.group"/>
+      <requirement
+          name="org.eclipse.mylyn.wikitext_feature.feature.group"/>
       <repository
           url="https://gnl42.github.io/JiraConnector-update/"/>
       <repository
