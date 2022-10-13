@@ -525,7 +525,15 @@
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"/>
       <repository
-          url="https://download.jboss.org/jbosstools/photon/stable/updates"/>
+          url="https://download.jboss.org/jbosstools/photon/stable/updates/core/4.24.0.Final/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.24.0.Final-SNAPSHOT/REPO/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/static/photon/stable/updates/core/4.24.0.Final/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/static/photon/stable/updates/central/4.24.0.Final/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.24.0.Final-SNAPSHOT/REPO/"/>
       <repository
           url="https://download.jboss.org/jbosstools/updates/m2e-wro4j/"/>
     </setupTask>
@@ -810,7 +818,15 @@
       <requirement
           name="org.hibernate.eclipse.feature.feature.group"/>
       <repository
-          url="https://download.jboss.org/jbosstools/photon/stable/updates"/>
+          url="https://download.jboss.org/jbosstools/photon/stable/updates/core/4.24.0.Final/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/targetplatforms/jbosstoolstarget/4.24.0.Final-SNAPSHOT/REPO/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/static/photon/stable/updates/core/4.24.0.Final/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/static/photon/stable/updates/central/4.24.0.Final/"/>
+      <repository
+          url="https://download.jboss.org/jbosstools/targetplatforms/jbtcentraltarget/4.24.0.Final-SNAPSHOT/REPO/"/>
       <repository
           url="https://download.jboss.org/jbosstools/updates/m2e-wro4j/"/>
     </setupTask>
