@@ -922,7 +922,7 @@
       <repository
           url="http://download.eclipse.org/technology/subversive/4.0/update-site/"/>
       <repository
-          url="https://prlinux-sds.tre-pr.jus.br/eclipse/subversive/6.0/update-site/"/>
+          url="https://trepr.github.io/subversive-connectors"/>
     </setupTask>
   </version>
   <version name="2022-03"
